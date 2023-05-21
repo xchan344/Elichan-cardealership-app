@@ -1,0 +1,25 @@
+a, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+p.copyright.text-center {
+    font-size: small;
+}
+.sidebar-wrapper {
+    background-color: rgb(35, 18, 75);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+div.card.strpied-tabled-with-hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.login-body {
+        background-image: url('img/background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+div.earnings {
+    margin-left: 10px;
+}
+a.simple-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
