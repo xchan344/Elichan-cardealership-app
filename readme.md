@@ -24,7 +24,7 @@
 
 ### Visuals
 
-![SignIn](img\SignIn.png)
+![SignIn](img/SignIn.png)
 
 *The Line of code above is the Sign In Feature, It shows how the system displays the Sign in Portion using Php, HTML, and Javascript.*
 
