@@ -1,4 +1,4 @@
-![banner1](img\Banner.png) <br>
+![banner1](img/Banner.png) <br>
  <h1> EliChan Car Dealership </h1>
  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app) ![GitHub language count](https://img.shields.io/github/languages/count/xchan344/Elichan-cardealership-app) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/xchan344/Elichan-cardealership-app) ![GitHub forks](https://img.shields.io/github/forks/xchan344/Elichan-cardealership-app?style=social)
  
@@ -30,85 +30,85 @@
 
 <br> </br>
 
-![CarAdd](img\CarAdd.png)
+![CarAdd](img/CarAdd.png)
 
 *The Line of code above is the Add Feature for the Cars Data, It shows how the system Adds New Data into the Cars Database using Php and HTML.*
 
 <br> </br>
 
-![CarDelete](img\CarDelete.png)
+![CarDelete](img/CarDelete.png)
 
 *The Line of code above is the Delete Feature for the Cars Data, It shows how the system Deletes Existing Data from the Cars Database using Php.*
 
 <br> </br>
 
-![CarEdit](img\CarEdit.png)
+![CarEdit](img/CarEdit.png)
 
 *The Line of code above is the Edit Feature for the Cars Data, It shows how the system Edit Existing Data from the Cars Database using Php and HTML.*
 
 <br></br>
 
-![EmployeeAdd](img\EmployeeAdd.png)
+![EmployeeAdd](img/EmployeeAdd.png)
 
 *The Line of code above is the Add Feature for the Employee Data, It shows how the system Adds New Data into the Employee Database using Php and HTML.*
 
 <br> </br>
 
-![EmployeeDelete](img\EmployeeDelete.png)
+![EmployeeDelete](img/EmployeeDelete.png)
 
 *The Line of code above is the Delete Feature for the Employee Data, It shows how the system Deletes Existing Data from the Employee Database using Php.*
 
 <br> </br>
 
-![EmployeeEdit](img\EmployeeEdit.png)
+![EmployeeEdit](img/EmployeeEdit.png)
 
 *The Line of code above is the Edit Feature for the Employee Data, It shows how the system Edit Existing Data from the Employee Database using Php and HTML.*
 
 <br> </br>
 
-![TransactionAdd](img\TransactionAdd.png)
+![TransactionAdd](img/TransactionAdd.png)
 
 *The Line of code above is the Add Feature for the Transaction Data, It shows how the system Adds New Data into the Transaction Database using Php and HTML.*
 
 <br> </br>
 
-![TransactionDelete](img\TransactionDelete.png)
+![TransactionDelete](img/TransactionDelete.png)
 
 *The Line of code above is the Delete Feature for the Transaction Data, It shows how the system Deletes Existing Data from the Transaction Database using Php.*
 
 <br> </br>
 
-![TransactionEdit](img\TransactionEdit.png)
+![TransactionEdit](img/TransactionEdit.png)
 
 *The Line of code above is the Edit Feature for the Transactionn Data, It shows how the system Edit Existing Data from the Transaction Database using Php and HTML.*
 
 <br> </br>
 
-![SignInPage](img\SignInImg.png)
+![SignInPage](img/SignInImg.png)
 
 *The image above shows the Sign In Page*
 
 <br> </br>
 
-![HomePage](img\HomePageImg.png)
+![HomePage](img/HomePageImg.png)
 
 *The image above shows the Home Page*
 
 <br> </br>
 
-![EmployeePage](img\EmployeeImg.png)
+![EmployeePage](img/EmployeeImg.png)
 
 *The image above shows the Employee Page*
 
 <br> </br>
 
-![TransactionImg](img\TransactionImg.png)
+![TransactionImg](img/TransactionImg.png)
 
 *The image above shows the Transaction Page*
 
 <br> </br>
 
-![CarModelPage](img\CarModelImg.png)
+![CarModelPage](img/CarModelImg.png)
 
 *The image above shows the Car Model Page*
 
@@ -198,13 +198,13 @@ For Questions and Further Assistance, you can Contact us using
 
 # Authors and Acknowledgements
 
-![ChanImage](img\ChanImg.jpg)
+![ChanImage](img/ChanImg.jpg)
 
 ## [Christian Dela Gente](https://github.com/xchan344)
 
 <br> </br>
 
-![UlsonImage](img\UlsonImg.png)
+![UlsonImage](img/UlsonImg.png)
 
 ## [Elizalde Ulson II](https://github.com/NgtzBogz)
 
