@@ -1,6 +1,6 @@
 ![banner1](img/Banner.png) <br>
  <h1> EliChan Car Dealership </h1>
- [![Shields1](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app)](https://github.com/xchan344/Elichan-cardealership-app)
+ [![Shields1](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app)](https://github.com/xchan344/Elichan-cardealership-app/directory-file-count)
 
  
  <br> </br>
