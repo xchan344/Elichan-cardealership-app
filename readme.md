@@ -2,6 +2,7 @@
  <h1> EliChan Car Dealership </h1>
  ![GitHub repo file count](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app)
  
+ <br> </br>
  
  [EliChan Car Dealership](https://github.com/xchan344/Elichan-cardealership-app) is a Sales and Transaction Tracking System that is developed by [Christian Dela Gente](https://github.com/xchan344) and [Elizalde Ulson II](https://github.com/NgtzBogz)
  
