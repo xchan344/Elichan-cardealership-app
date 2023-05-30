@@ -1,7 +1,7 @@
 ![banner1](img/Banner.png) <br>
  <h1> EliChan Car Dealership </h1>
  
- [![Shields1](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app)](https://github.com/xchan344/Elichan-cardealership-app)
+ ![GitHub repo file count](https://img.shields.io/github/directory-file-count/xchan344/Elichan-cardealership-app) ![GitHub language count](https://img.shields.io/github/languages/count/xchan344/Elichan-cardealership-app) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/xchan344/Elichan-cardealership-app) ![GitHub forks](https://img.shields.io/github/forks/xchan344/Elichan-cardealership-app?style=social)
 
  
  <br> </br>
