@@ -90,7 +90,7 @@
 
 ![SignInPage](img/SignInImg.png)
 
-*The image above shows the Sign In Page*
+*The image above shows the Sign In Page the default username is "admin" and the password is "admin"*
 
 <br> </br>
 
