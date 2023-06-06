@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `elichan-cardealership-app` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `elichan-cardealership-app`;
 -- MySQL dump 10.13  Distrib 8.0.30, for Win64 (x86_64)
 --
 -- Host: localhost    Database: elichan-cardealership-app
@@ -95,7 +93,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (1,'Christian','Dela Gente','1997-01-19',1,'09567214995'),(2,'Elizalde','Ulson','2001-06-28',2,'09125872375'),(3,'Keanu','Reeves','1976-03-24',3,'09238746273'),(4,'Chuck','Norris','1946-02-26',3,'09347563475'),(5,'Bob','Marley','1957-08-01',4,'09237462734'),(6,'Michael','Jordan','1957-11-03',5,'09734637454'),(7,'Elon','Musk','1945-06-17',6,'09237637643'),(8,'Steve','Jobs','1967-02-26',7,'09384765734'),(9,'Bruce','Lee','1967-08-15',8,'09243785637'),(10,'Jet','Lee','1969-07-15',8,'09347583479');
+INSERT INTO `employee` VALUES (1,'Christian','Dela Gente','1997-01-19',1,'09567214995'),(2,'Elizalde','Ulson Pogi','2001-06-28',2,'09125872375'),(3,'Keanu','Reeves','1976-03-24',3,'09238746273'),(4,'Chuck','Norris','1946-02-26',3,'09347563475'),(5,'Bob','Marley','1957-08-01',4,'09237462734'),(6,'Michael','Jordan','1957-11-03',5,'09734637454'),(7,'Elon','Musk','1945-06-17',6,'09237637643'),(8,'Steve','Jobs','1967-02-26',7,'09384765734'),(9,'Bruce','Lee','1967-08-15',8,'09243785637'),(10,'Jet','Lee','1969-07-15',8,'09347583479');
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -170,7 +168,7 @@ CREATE TABLE `transaction` (
   CONSTRAINT `c_id` FOREIGN KEY (`c_id`) REFERENCES `cars` (`c_id`),
   CONSTRAINT `ts_id` FOREIGN KEY (`ts_id`) REFERENCES `transaction_status` (`ts_id`),
   CONSTRAINT `tt_id` FOREIGN KEY (`tt_id`) REFERENCES `transaction_type` (`tt_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -179,7 +177,7 @@ CREATE TABLE `transaction` (
 
 LOCK TABLES `transaction` WRITE;
 /*!40000 ALTER TABLE `transaction` DISABLE KEYS */;
-INSERT INTO `transaction` VALUES (1,'Kendrick ','Espidido',5,1,750000,1,'2022-06-28'),(2,'Hector','Herrera',2,2,8600,1,'2022-06-28'),(3,'Lexter','Gevela',9,2,4840,1,'2022-06-28'),(4,'Allan','Amon',1,3,500,3,'2022-06-28'),(5,'Ehd','Caluag',6,1,2000000,2,'2022-06-28'),(6,'Manny','Pacquiao',3,1,29900000,1,'2022-06-28'),(7,'Vice','Ganda',4,2,13600,1,'2022-06-28'),(8,'Dora','Exprorer',7,3,600,3,'2022-06-28'),(9,'Naruto','Uzumaki',8,1,4160000,2,'2022-06-28'),(10,'Kendrick','Espidido',10,1,1200000,2,'2022-06-28'),(11,'Manny','Pacquiao',8,1,4200000,1,'2023-03-02'),(12,'Sponge','Bob',5,2,3290,1,'2023-02-01'),(14,'Spider','Man',3,3,460,1,'2023-02-24'),(15,'Ash','Kechum',9,1,780000,1,'2023-03-01'),(16,'Cardo','Dalisay',10,1,200000,2,'2023-03-03'),(17,'Bella','Porch',4,1,835000,1,'2023-03-04'),(18,'Bronu','Mars',1,1,913000,1,'2023-03-05'),(19,'Bruno','Earth',2,1,350000,2,'2023-03-07'),(20,'Ferdinand','Marcos',5,1,710000,1,'2023-03-08'),(21,'Pia','Wurtzbach',2,2,4233,1,'2023-03-08'),(22,'Liza','Zoberano',8,1,240000,2,'2023-03-09'),(23,'Lelouch','Lamperouge',9,1,780000,1,'2023-03-09'),(24,'Light','Yagami',6,1,2000000,1,'2023-03-10'),(25,'Dio','Brando',2,1,1800000,1,'2023-03-11'),(26,'Joseph','Joestar',8,1,4160000,1,'2023-03-12'),(27,'Gon','Freecs',10,1,300000,2,'2023-03-13'),(28,'Levi','Ackerman',8,1,320000,2,'2023-03-15'),(29,'Jotaro','Kujo',8,1,400000,2,'2023-03-16'),(30,'Roronoa','Zoro',8,1,540000,2,'2023-03-19'),(31,'Light','Yagami',4,1,299999,2,'2023-03-18'),(32,'Shinji','Ikari',9,2,40000,1,'2023-03-19'),(33,'Edward','Elric',5,2,12100,1,'2023-03-21');
+INSERT INTO `transaction` VALUES (1,'Kendrick ','Espidido',5,1,750000,1,'2022-06-28'),(2,'Hector','Herrera',2,2,8600,1,'2022-06-28'),(3,'Lexter','Gevela',9,2,4840,1,'2022-06-28'),(4,'Allan','Amon',1,3,500,3,'2022-06-28'),(5,'Ehd','Caluag',6,1,2000000,2,'2022-06-28'),(6,'Manny','Pacquiao',3,1,29900000,1,'2022-06-28'),(7,'Vice','Ganda',4,2,13600,1,'2022-06-28'),(8,'Dora','Explorer',7,3,600,3,'2022-06-28'),(9,'Naruto','Uzumaki',8,1,4160000,2,'2022-06-28'),(10,'Kendrick','Espidido',10,1,1200000,2,'2022-06-28'),(11,'Manny','Pacquiao',8,1,4200000,1,'2023-03-02'),(12,'Sponge','Bob',5,2,3290,1,'2023-02-01'),(14,'Spider','Man',3,3,460,1,'2023-02-24'),(15,'Ash','Kechum',9,1,780000,1,'2023-03-01'),(16,'Cardo','Dalisay',10,1,200000,2,'2023-03-03'),(17,'Bella','Porch',4,1,835000,1,'2023-03-04'),(18,'Bruno','Mars',1,1,913000,1,'2023-03-05'),(19,'Bruno','Earth',2,1,350000,2,'2023-03-07'),(20,'Ferdinand','Marcos',5,1,710000,1,'2023-03-08'),(21,'Pia','Wurtzbach',2,2,4233,1,'2023-03-08'),(22,'Liza','Zoberano',8,1,240000,2,'2023-03-09'),(23,'Lelouch','Lamperouge',9,1,780000,1,'2023-03-09'),(24,'Light','Yagami',6,1,2000000,1,'2023-03-10'),(25,'Dio','Brando',2,1,1800000,1,'2023-03-11'),(26,'Joseph','Joestar',8,1,4160000,1,'2023-03-12'),(27,'Gon','Freecs',10,1,300000,2,'2023-03-13'),(28,'Levi','Ackerman',8,1,320000,2,'2023-03-15'),(29,'Jotaro','Kujo',8,1,400000,2,'2023-03-16'),(30,'Roronoa','Zoro',8,1,540000,2,'2023-03-19'),(31,'Light','Yagami',4,1,299999,2,'2023-03-18'),(32,'Shinji','Ikari',9,2,40000,1,'2023-03-19'),(33,'Edward','Elric',5,2,12100,1,'2023-03-21'),(39,'Kendrick','Espidido',4,3,600,1,'2023-06-06'),(40,'Kendrick','Espidido',7,2,12500,1,'2023-06-06'),(41,'Kendrick','Espidido',8,2,14500,1,'2023-06-06'),(42,'Kendrick','Espidido',8,2,14500,1,'2023-06-06');
 /*!40000 ALTER TABLE `transaction` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -230,6 +228,36 @@ LOCK TABLES `transaction_type` WRITE;
 INSERT INTO `transaction_type` VALUES (1,'Bought'),(2,'Repair'),(3,'Consult');
 /*!40000 ALTER TABLE `transaction_type` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `users` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp NULL DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -240,4 +268,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-22  7:09:33
+-- Dump completed on 2023-06-06 23:36:18

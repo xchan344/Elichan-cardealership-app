@@ -118,10 +118,15 @@
 
 <br> </br>
 
+![Elichan Cardealership App](img/PHP-Elichan-Cardealership-App.gif)
+
+*The image gif above shows the working project*
+
+<br> </br>
 
 # Installation
 
-1. Fork the Repository From [xchan344](https://github.com/xchan344/Elichan-cardealership-app) github repositories
+1. Fork the Repository From [xchan344](https://github.com/xchan344/Elichan-cardealership-app) github repositories into the www directory of the wampserver or xamppserver
 2. Import the elichan-cardealership-app.sql database using MySQL
 3. Edit the db file in the config folder using VSCode
 4. Open Wampserver or xamppserver
