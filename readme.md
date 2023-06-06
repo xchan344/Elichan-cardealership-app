@@ -120,7 +120,7 @@
 
 ![Elichan Cardealership App](img/PHP-Elichan-Cardealership-App.gif)
 
-*The image gif above shows the working project*
+*The gif above shows the working project*
 
 <br> </br>
 
